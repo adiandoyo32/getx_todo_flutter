@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:getx_learn_flutter/add_todo_screen.dart';
 import 'package:getx_learn_flutter/controllers/TodoController.dart';
 
-class HomeScreen extends StatelessWidget {
+class TodoScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final TodoController todoController = Get.put(TodoController());
